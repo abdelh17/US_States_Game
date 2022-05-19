@@ -6,4 +6,4 @@
 <li>The game ends when you reach all 50 states or when you type "Out"</li>
 <li>A CSV file (missed.csv) is generated if you type "Out", to tell you which states you missed</li>
 
-![country_img copy](https://user-images.githubusercontent.com/98190195/169170097-3562e202-5429-4aa0-80af-57161408ef47.jpg)
+<img width="721" alt="Screen Shot 2022-05-19 at 7 02 57 PM" src="https://user-images.githubusercontent.com/98190195/169418401-24d6f27f-a7d2-44e1-abf4-08fb395fee9e.png">
