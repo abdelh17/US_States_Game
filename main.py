@@ -14,14 +14,10 @@ while len(guessed)<len(state_list):
     user_answer=user_answer.title()
 
     if user_answer=="Out":
-        missed=[]
-        for state_name in state_list:
-            if state_name not in guessed:
-                missed.append(state_name)
-        new_data=pd.DataFrame(missed)
+        missedState=[missed for missed in state_list if (missed not in guessed)]
+        new_data=pd.DataFrame(missedState)
         new_data.to_csv("missed_states.csv")
         break
-
 
     if user_answer in  state_list :
         if user_answer not in guessed:
